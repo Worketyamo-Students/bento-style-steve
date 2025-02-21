@@ -16,39 +16,41 @@
 <body class="overflow-x-hidden flex flex-col gap-[1.2rem] w-screen h-full p-[2.4rem] bg-[#161616]">
     <!-- navbar -->
     <nav class="flex w-[100%]"> 
-        <div class="size-[4.4rem] border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[50%] flex justify-center items-center">
-            <img class="size-[2.7rem]" src="assets/images/logo.svg" alt="logo">
+        <div class="size-[4.4rem] md:size-[6.4rem] border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[50%] flex justify-center items-center">
+            <img class="size-[2.7rem] md:size-[4rem]" src="assets/images/logo.svg" alt="logo">
         </div>
-        <div class="flex justify-between border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[10rem] px-[1.6rem] items-center w-[28.3rem]">
-            <span class="text-[#F35034] font-[700] text-[1.3rem] font-(--font-inter)">ABOUT</span>
-            <img src="assets/images/menu.svg" alt="burger menu">
+        <div class="flex justify-between md:px-[6.6rem] border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[10rem] px-[1.6rem] items-center w-[28.3rem] md:w-[100%]">
+            <span class="text-[#F35034] font-[700] text-[1.3rem] md:text-[2rem] font-(--font-inter)">ABOUT</span>
+            <span class="text-[white] font-[400] text-[2rem] max-md:hidden font-(--font-inter)">PORTFOLIO</span>
+            <span class="text-[white] font-[400] text-[2rem] max-md:hidden font-(--font-inter)">CONTACT</span>
+            <img class="md:hidden" src="assets/images/menu.svg" alt="burger menu">
         </div>
     </nav>
     <!-- zainab nissa -->
-    <div class="flex flex-col gap-[4rem] py-[2.2rem] pl-[1.6rem] border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[0.9rem]">
-        <div class="flex flex-col gap-[1.5rem]">
-            <div class="border-[0.13rem] border-[#262626] bg-[#161616] flex gap-[0.7rem] items-center w-[12.5rem] h-[2.1rem] rounded-[1.4rem] justify-center">
-                <div class="size-[0.7rem] bg-[#F35034] rounded-[50%]"></div>
-                <span class="font-[500] text-[0.9rem] font-(--font-inter) text-[white]">AVAILABLE FOR JOB</span>
+    <div class="flex flex-col gap-[4rem] md:gap-[7.1rem] py-[2.2rem] md:py-[6rem] px-[1.6rem] md:px-[4.25rem] border-[0.13rem] border-[#262626] bg-[#1B1B1B] rounded-[0.9rem]">
+        <div class="flex flex-col gap-[1.5rem] md:flex-row-reverse md:justify-between">
+            <div class="border-[0.13rem] border-[#262626] bg-[#161616] flex gap-[0.7rem] items-center w-[12.5rem] md:w-[18.1rem] h-[2.1rem] md:h-[2.6rem] rounded-[1.4rem] justify-center">
+                <div class="size-[0.7rem] md:size-[0.9rem] bg-[#F35034] rounded-[50%]"></div>
+                <span class="font-[500] text-[0.9rem] md:text-[1.3rem] font-(--font-inter) text-[#C0C0C0]">AVAILABLE FOR JOB</span>
             </div>
-            <h1 class="font-[500] text-[1.6rem] font-(--font-inter) text-[white]">UI/UX Designer</h1>
+            <h1 class="font-[500] text-[1.6rem] md:text-[2.4rem] font-(--font-inter) text-[#C0C0C0]">UI/UX Designer</h1>
         </div>
-        <div class="flex flex-col gap-[3rem]">
-            <div class="size-[8rem] border-[0.13rem] border-[#262626] bg-[#161616] rounded-[50%] flex items-center justify-center">
-                <img class="size-[7.07rem]" src="assets/images/user.svg" alt="user profile">
+        <div class="flex flex-col gap-[3rem] md:flex-row-reverse md:items-center md:justify-between">
+            <div class="size-[8rem] border-[0.13rem] md:size-[17.8rem] border-[#262626] md:border-[#3F3E3E] bg-[#161616] md:bg-[#2C2C2C] rounded-[50%] flex items-center justify-center">
+                <img class="size-[7.07rem] md:size-[15.7rem] " src="assets/images/user.svg" alt="user profile">
             </div>
-            <div class="flex flex-col gap-[1.6rem]">
-                <h1 class="font-[600] text-[2.4rem] font-(--font-inter) text-[white]">I’m Zainab Nisa</h1>
-                <p class="font-[400] text-[1.6rem] font-(--font-inter) text-[#C0C0C0]">I design digital products with great experience.</p>
-                <div class="w-[20rem] h-[3rem] flex gap-[0.7rem]">
-                    <button class="bg-[#F35034] p-[1rem] flex border-[0.1rem] border-[#E4643F] items-center justify-center rounded-[0.54rem] text-[white]">
-                        <div class="font-[500] text-[1.1rem] font-(--font-inter) pr-[0.6rem] ">Hire me</div>
-                        <div class="font-[500] text-[1.1rem] font-(--font-inter) pl-[0.6rem] border-l-[0.1rem] border-[#262626] h-[33px] flex items-center justify-center">+</div>
+            <div class="flex flex-col gap-[1.6rem]  md:gap-[2.8rem]">
+                <h1 class="font-[600] text-[2.4rem] md:text-[3.6rem] font-(--font-inter) text-[white]">I’m Zainab Nisa</h1>
+                <p class="font-[400] text-[1.6rem] md:text-[2rem] font-(--font-inter) text-[#C0C0C0]">I design digital products with <br class="max-md:hidden"> great experience.</p>
+                <div class="w-[20rem] h-[3rem] flex gap-[0.7rem] md:gap-[1.4rem]">
+                    <button class="bg-[#F35034] p-[1rem] flex border-[0.1rem] md:border-[0.12rem] border-[#E4643F] items-center justify-center md:w-[10.8rem] md:h-[4.2rem] rounded-[0.54rem] text-[white]">
+                        <div class="font-[500] text-[1.1rem] font-(--font-inter) pr-[0.6rem] md:w-[6rem]">Hire me</div>
+                        <div class="font-[500] text-[1.1rem] font-(--font-inter) pl-[0.6rem] md:text-[1.6rem] border-l-[0.1rem] border-[#262626] h-[33px] flex items-center justify-center">+</div>
                     </button>
-                    <button class="bg-[#161616] p-[1rem]  flex border-[0.1rem] border-[#262626] items-center justify-center rounded-[0.54rem] text-[white]">
-                        <div class="font-[500] text-[1.1rem] font-(--font-inter) text-[#C0C0C0] pr-[0.6rem]">Copy Email</div>
+                    <button class="bg-[#161616] p-[1rem] flex border-[0.1rem] md:border-[0.12rem] border-[#262626] items-center justify-center rounded-[0.54rem] md:w-[14.3rem]  md:h-[4.2rem]">
+                        <div class="font-[500] text-[1.1rem] font-(--font-inter) text-[#C0C0C0] pr-[0.6rem] md:w-[8.6rem]">Copy Email</div>
                         <div class=" border-l-[0.1rem] border-[#262626] h-[33px] flex items-center justify-center pl-[0.6rem]">
-                            <img height="" src="assets/images/copier.svg" alt="">
+                            <img class="size-[1.2rem] md:size-[1.8rem]" src="assets/images/copier.svg" alt="">
                         </div>
                     </button>
                 </div>
