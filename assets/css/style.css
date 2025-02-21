@@ -1,14 +1,28 @@
 #linear_bg1{
-    background-color: #1b1b1b;
 background-image: linear-gradient(35deg, #1b1b1b 64%, #e63e2157 92%, #33130ee0 100%);
-border-image: linear-gradient(45deg, #262626 75%, #ffffff 100%) 3rem;
 }
 #linear_bg2{
-    background-color: #1b1b1b;
     background-image: linear-gradient(60deg, #1b1b1b 79%, #e63e2157 92%, #33130ee0 100%);
 }
 #linear_bg3{
-    background-color: #1b1b1b;
     background-image: linear-gradient(240deg, #1b1b1b 79%, #e63e2157 92%, #33130ee0 100%);
+    border-image: linear-gradient(45deg, #262626 75%, #e63e21 100%) 1rem;
+border-image-slice: 100;
+}
+#border1{
+background-image: linear-gradient(45deg, #262626 75%, #e63e21 100%);
 
+    
+}
+#border2{
+background-image: linear-gradient(45deg, #262626 75%, #e63e21 100%);
+flex: 1;
+
+    
+}
+#border3{
+background-image: linear-gradient(240deg, #262626 75%, #e63e21 100%);
+flex: 1;
+
+    
 }
