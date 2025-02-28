@@ -22,7 +22,11 @@ flex: 1;
 }
 #border3{
 background-image: linear-gradient(240deg, #262626 75%, #e63e21 100%);
-flex: 1;
-
-    
+flex: 1;  
 }
+#border4{
+    background: linear-gradient(15deg, hsla(9, 80%, 52%, 1) 0%, hsla(0, 0%, 15%, 1) 23%);
+}
+#linear_bg4{
+    background: linear-gradient(20deg, #33130E 0%, #e63e2185 6%, #1B1B1B 11%);
+    }
