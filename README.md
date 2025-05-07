@@ -6,6 +6,7 @@ ceci est mon porfolio version bento style pour exposer mes competences de develo
 
 - **HTML5**
 - **TAILWIND**
+- **CSS3**
 
 ## FONCTIONNALITÉES
 
